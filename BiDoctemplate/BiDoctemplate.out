@@ -1,0 +1,17 @@
+\BOOKMARK [1][-]{section.1}{Einleitung}{}% 1
+\BOOKMARK [1][-]{section.2}{Datenquellen}{}% 2
+\BOOKMARK [2][-]{subsection.2.1}{Incident Report}{section.2}% 3
+\BOOKMARK [1][-]{section.3}{Datenintegration}{}% 4
+\BOOKMARK [2][-]{subsection.3.1}{Incident Report}{section.3}% 5
+\BOOKMARK [2][-]{subsection.3.2}{Extraktion}{section.3}% 6
+\BOOKMARK [2][-]{subsection.3.3}{Kodierung}{section.3}% 7
+\BOOKMARK [2][-]{subsection.3.4}{Struktur}{section.3}% 8
+\BOOKMARK [2][-]{subsection.3.5}{Umsetzung Fachlichkeit}{section.3}% 9
+\BOOKMARK [1][-]{section.4}{Zentrale Datenhaltung}{}% 10
+\BOOKMARK [1][-]{section.5}{Aggregation}{}% 11
+\BOOKMARK [1][-]{section.6}{Reporting}{}% 12
+\BOOKMARK [1][-]{section.7}{Fachliche Reglen}{}% 13
+\BOOKMARK [2][-]{subsection.7.1}{Geschlecht zu ICD}{section.7}% 14
+\BOOKMARK [1][-]{section.8}{Architektur- und Programmierrichtlinien}{}% 15
+\BOOKMARK [2][-]{subsection.8.1}{Formatierungen}{section.8}% 16
+\BOOKMARK [2][-]{subsection.8.2}{Extraktion von Daten}{section.8}% 17

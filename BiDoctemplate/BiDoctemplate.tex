@@ -1,0 +1,243 @@
+\documentclass[11pt,a4paper]{scrartcl} % Basisdokumentenklasse
+\usepackage[ngerman]{babel}        % Deutsche Standardbezeichner und Trennung
+\usepackage[latin1]{inputenc}      % Für Umlaute
+\usepackage[T1]{fontenc}           % und ß
+\usepackage{makeidx}               % Indexpaket
+\usepackage{times}                 % Schönere Schriften, Achtung, nicht pslatex verwenden!
+\usepackage{longtable}             % Lange Tabelle für Abkürzungsverzeichnis
+\usepackage{graphics}              % EPS-Grafiken einbinden
+\usepackage{theorem}               % Theorem-Optionen
+\usepackage{bbding}
+\usepackage{fancyvrb}              % Fancy-Verbatin für Programmlistings
+\usepackage{booktabs}
+%meine eigenen Pakete
+\theoremstyle{break} % Zeilenumbruch nach Theorem
+\newtheorem{mydef}{Definition}
+%Fürs zeichenen
+\usepackage{tikz}
+\usetikzlibrary{shapes,arrows}
+%Für schöne Algorithmen Darstellungen
+\usepackage{listings}
+%\usepackage{todonotes}
+\usepackage{subfigure}
+%- für multirow Tabellen
+\usepackage{multirow}
+%- für die schöne Darstellung von URLS
+\usepackage{url}
+%für schöne Formelumgebung
+\usepackage{amssymb,amsmath}
+
+
+\usepackage{boxedminipage}
+%Um bei Code Unterschriften zu haben verwendeung von eigenem Listing Stilen (Kai)
+%\input{content/listings}
+%für mehrsoaltigen Text
+\usepackage{multicol}
+\usepackage{multirow}
+%temp für eigenes comand
+% hyperref ohne die Kästchen benutzen, sondern Links dunkelbalu zeigen
+\usepackage{color}
+\definecolor{lightgray}{gray}{0.9}
+\definecolor{myg}{rgb}{213,201,216}
+%Für linksiun Dokumenten
+\usepackage[breaklinks=true,linkcolor=darkblue,menucolor=darkblue,urlcolor=darkblue]{hyperref}
+%\usepackage{breakurl}
+
+%YTe Box zur Interface Beschreibung 
+\usepackage{float}
+\floatstyle{boxed}
+\newfloat{IDL}{thp}{loa}
+\floatname{IDL}{Transformation Definition}
+
+%20. 2. 12 Hurenkinder und Schusterjungen verhindern
+\clubpenalty = 10000
+\widowpenalty = 10000
+\displaywidowpenalty = 10000
+
+
+%%weitere Befhele innerhalb der IDL
+\newcommand{\overview}[1]{\textbf{Overview: \\ }{#1}\\}
+\newcommand{\arguments}[1]{\textbf{Supplied Arguments: \\ }{#1\\}}
+\newcommand{\preCon}[1]{\textbf{Pre-Conditions:  \\}{#1\\}}
+\newcommand{\postCon}[1]{\textbf{Results: \\ }{#1\\}}
+\newcommand{\error}[1]{\textbf{Errors: \\}{#1\\}}
+%eigene Comands für Begriffe:
+\newcommand{\automais}{AutoMAIS}
+%\newcommand{\staticDataSource}{static data source }
+%\newcommand{\staticDataSources}{static data source }
+%\newcommand{\dynamicDataSource}{dynamic data source }
+%\newcommand{\dynamicDataSources}{dynamic data sources }
+
+% data Connections für datenquellen
+% data structuren für datenquellen
+% inforamtion für datenquellen 
+\newcommand{\information}{information}
+\newcommand{\Information}{Information}
+% measure
+\newcommand{\measure}{measure }
+\newcommand{\measures}{measures }
+\newcommand{\Measure}{measure }
+\newcommand{\Measures}{measures } 
+% base measure 
+\newcommand{\basemeasure}{base measure }
+\newcommand{\basemeasures}{base measures }
+\newcommand{\Basemeasure}{base measure }
+\newcommand{\Basemeasures}{base measures }
+
+
+ \newcommand\versicherung[1]{\chapter*{Versicherung}
+\thispagestyle{empty}
+Hiermit versichere ich, dass ich diese Arbeit selbst\"{a}ndig verfasst und keine anderen als die angegebenen Quellen und Hilfsmittel benutzt habe. Au{\ss}erdem versichere ich, dass ich die allgemeinen Prinzipien wissenschaftlicher Arbeit und Ver\"{o}ffentlichung, wie sie in den Leitlinien guter wissenschaftlicher Praxis der Carl von Ossietzky Universit\"{a}t Oldenburg festgelegt sind, befolgt habe.
+
+\vspace{1.5cm}
+
+#1, den 27. Februar 2012
+
+\vspace*{-0.5cm}\hspace*{5.5cm}\hrulefill\\
+\hspace*{6.5cm}\hfill Yvette Teiken \hfill\mbox{}
+}
+
+
+%\newcommand{\RZO}{R$_2$O}
+% software engineering
+\newcommand{\SE}{software engineering }
+\newcommand{\se}{software engineering }
+
+%\newcommand{\awNot}[1]{%
+%\begin{boxedminipage}[t]{14cm}
+%#1
+%\end{boxedminipage}
+%   
+%}
+
+
+
+
+%Komondo um den Index Eintrag fett zu machen. Benutzt man bei der Definition des Begriffs kommt von RST
+\newcommand{\defkey}[1]{\textbf{#1}\index{#1|textbf}}
+
+\title{Dokumentation von BI Projekten} 
+%\title{ AutoMais  \\ Automatische Modellgetriebene Analytische Informationssysteme} % Titel der Dissertation
+\author{Dr. Yvette Teiken}
+
+                % Tag der Disputation
+
+\makeindex
+
+
+
+%Befehl um nur bestimmte Kapitel zu inkludieren um sie zu AW zu geben
+%\includeonly{content/evaluation,content/Summary}
+
+% Das eigentliche Dokument
+\begin{document}
+
+% Anfang des Dokuments
+\maketitle              % Offizielle Titelseite der Uni, bei Abgabe auskommentieren!
+%eine leere seite einfügen ohne Seitennummer
+%\thispagestyle{empty}
+%\cleardoublepage
+%\pagenumbering{Roman}   % Römische Seitenzahlen für den Anfang
+%\setcounter{page}{5}    % Bei römisch V anfangen	
+
+
+% Zusammenfassung und Abstract
+
+%\input{content/Dank.tex}
+%\input{content/abstract.tex}
+
+
+
+% Inhaltsverzeichnis
+
+%\tableofcontents
+
+\cleardoublepage        % Danach auf ungerader Seite weitermachen
+\pagenumbering{arabic}  % Arabische Seitenzahlen starten neu
+
+\input{doku/Einleitung.tex}
+\input{doku/Architektur.tex}
+\input{doku/Architektur_und_Programmierrichtlinien.tex}
+%\include{content/Introduction}
+% Der eigentliche Inhalt
+%Grundlagen
+%\include{content/Grundlagen}
+%Fallstudie  
+%\include{content/ExampleAisCreation}
+%\include{content/relatedWork}
+%der Ansatz an sich 
+%\include{content/autoMAIS}
+
+
+%\include{content/processModel}
+
+%%achuting hier große Überschrift
+%-- Kennzahlen
+%\include{content/measures}
+% -- Analyse Schema 
+%\include{content/AnalyseSchema}
+% -- Hierarchien
+
+%\include{content/Hierarchien}
+
+%-- Datenquellen
+%\include{content/Datenquellen}
+
+
+%--Datenquellen Transformationen
+
+%\include{content/DataTransformation}
+
+%--Datenqualität
+%\include{content/DatenQualitaet}
+%Integrationskapitel
+%\include{content/Integration}
+%\include{content/architecture}
+%\include{content/Transformation}
+%\include{content/ConclusionConcept}
+%Evaluation
+%\include{content/evaluation}
+%\include{content/Summary}
+
+%\include{content/Appendix}
+
+% Verzeichnisse am Ende, erst das Glossar
+%\include{content/glossar}
+
+
+
+
+
+
+% Dann die Abkürzungen
+%\include{content/abkuerzungen}
+
+% Weiter mit Abbildungen
+%\cleardoublepage
+%\addcontentsline{toc}{chapter}{Figures} % Sowohl im Inhaltsverzeichnis als auch als
+%\renewcommand{\listfigurename}{Figures} % Überschrift als "Abbildungen" ohne -verzeichnis
+%\listoffigures
+
+% Schließlich Literatur
+%\cleardoublepage
+%\nocite{*}
+%\addcontentsline{toc}{chapter}{References} % Soll als "Literatur" auftauchen
+%\bibliographystyle{alphadin}                 % Unser Standard-Bibliopgraphiestyle
+%24.4. Versuch wegen englischer literatur
+%\bibliographystyle{alpha}  
+%\renewcommand{\bibname}{References}        % Auch als Überschrift soll "Literatur" erscheinen
+%\bibliography{content/bibliographie}            % Literaturverzeichnis einbinden
+
+% Und ganz am Ende der Index
+%\cleardoublepage
+%\addcontentsline{toc}{chapter}{Index} % Der auch Index heißen soll
+%\printindex
+%\input{content/index.tex}                     % Index einbinden, vorher aber mit makeindex erzeugen!
+%so geht index mit dem Texniccenter "%bm.idx" -o %tm.ind -t %tm.ilg 
+
+%bm.idx" -s olwir.ist -o %tm.ind -t %tm.ilg 
+
+
+%\versicherung{Oldenburg}
+\end{document}
+

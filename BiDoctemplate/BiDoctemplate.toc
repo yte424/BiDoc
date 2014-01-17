@@ -1,0 +1,10 @@
+\select@language {ngerman}
+\contentsline {section}{\numberline {1}Einleitung}{1}{section.1}
+\contentsline {section}{\numberline {2}Datenquellen}{1}{section.2}
+\contentsline {subsection}{\numberline {2.1}Incident Report}{1}{subsection.2.1}
+\contentsline {section}{\numberline {3}Datenintegration}{1}{section.3}
+\contentsline {section}{\numberline {4}Zentrale Datenhaltung}{1}{section.4}
+\contentsline {section}{\numberline {5}Aggregation}{1}{section.5}
+\contentsline {section}{\numberline {6}Reporting}{1}{section.6}
+\contentsline {section}{\numberline {7}Architektur- und Programmierrichtlinien}{1}{section.7}
+\contentsline {subsection}{\numberline {7.1}Formatierungen}{1}{subsection.7.1}

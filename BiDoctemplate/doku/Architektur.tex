@@ -1,0 +1,33 @@
+
+
+\newcommand{\DqBeschreibung}[2]{\textbf{Name der Datenquelle: #1} \\ \textbf{Kurszbeschreibung:} #2 \\ \\}
+
+\newcommand{\Quellattribut}[2]{ \textbf{Attributname}: #1 \textbf{Beschreibung}: #2 \\ }
+\section{Datenquellen}
+
+\subsection{Incident Report}
+\DqBeschreibung{IncidentReport}{Der Incident Report beschreibt Vorkommen von Fehlerfällen}
+\Quellattribut{ID}{Id von der Gematik geliefert}
+\Quellattribut{Beschreibung} {Beschreibung des Incidents im Klartext}
+
+
+%\Datenbeschreibung{IncidentReort}
+
+
+\section{Datenintegration}
+\subsection{Incident Report}
+\subsection{Extraktion}
+Hier steht der beschreibne Text, wie das realisiert \\
+\textbf{Bsonderheiten: } Hier musste man eine Ausnahme von dem Vorgen in \ref{BP_Extract} gemacht, da hier die Daten anders sind.
+\subsection{Kodierung}
+\subsection{Struktur}
+\subsection{Umsetzung Fachlichkeit} Hier muss die Regel \ref{BP_Extract} Anwendung finden, da ... Realisiert wurde dies mit der SIS Komponenten.
+
+\textbf{Realisiert in Package: } ExtractIncidentReport.dtsx
+\section{Zentrale Datenhaltung}
+\section{Aggregation}
+\section{Reporting}
+\section{Fachliche Reglen}
+\subsection{Geschlecht zu ICD}\label{GeschlechtZuICD}
+\textbf{Fachliche Beschreibung: }wenn ein ICD 40 oder 50 lautet dann kann das Geschlecht nur weiblich sein.\\
+\textbf{Domänenexperte} Herr Sander \\
