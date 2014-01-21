@@ -14,11 +14,11 @@ NormalPos.top=32
 NormalPos.right=1562
 NormalPos.bottom=499
 Class=LaTeXView
-Document=BiDoctemplate.tex
+Document=doku\Einleitung.tex
 
 [Frame0_View0,0]
-TopLine=19
-Cursor=1177
+TopLine=0
+Cursor=0
 
 [Frame1]
 Flags=0
@@ -32,11 +32,11 @@ NormalPos.top=32
 NormalPos.right=1562
 NormalPos.bottom=499
 Class=LaTeXView
-Document=doku\Einleitung.tex
+Document=doku\Architektur_und_Programmierrichtlinien.tex
 
 [Frame1_View0,0]
 TopLine=0
-Cursor=0
+Cursor=840
 
 [Frame2]
 Flags=0
@@ -50,11 +50,11 @@ NormalPos.top=32
 NormalPos.right=1562
 NormalPos.bottom=499
 Class=LaTeXView
-Document=doku\Architektur_und_Programmierrichtlinien.tex
+Document=doku\Architektur.tex
 
 [Frame2_View0,0]
-TopLine=0
-Cursor=475
+TopLine=26
+Cursor=1415
 
 [Frame3]
 Flags=0
@@ -68,31 +68,13 @@ NormalPos.top=32
 NormalPos.right=1562
 NormalPos.bottom=499
 Class=LaTeXView
-Document=doku\Architektur.tex
+Document=BiDoctemplate.tex
 
 [Frame3_View0,0]
-TopLine=0
-Cursor=171
-
-[Frame4]
-Flags=0
-ShowCmd=1
-MinPos.x=-1
-MinPos.y=-1
-MaxPos.x=-1
-MaxPos.y=-1
-NormalPos.left=4
-NormalPos.top=32
-NormalPos.right=1562
-NormalPos.bottom=499
-Class=LaTeXView
-Document=..\..\..\..\..\..\Program Files (x86)\New folder\tex\latex\fontspec\fontspec.sty
-
-[Frame4_View0,0]
 TopLine=35
-Cursor=986
+Cursor=6548
 
 [SessionInfo]
-FrameCount=5
-ActiveFrame=4
+FrameCount=4
+ActiveFrame=2
 

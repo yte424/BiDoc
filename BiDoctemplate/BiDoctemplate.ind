@@ -1,0 +1,10 @@
+\begin{theindex}
+
+  \item SSIS Package
+    \subitem Bereinigung.dtsx, \hyperpage{2}
+  \item SSIS Task
+    \subitem CheckNullOrEmptyColumns, \hyperpage{2}
+    \subitem Fachliche Regel Alter, \hyperpage{3}
+    \subitem Length and type Check, \hyperpage{2}
+
+\end{theindex}

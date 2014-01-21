@@ -1,0 +1,12 @@
+% This file was created with JabRef 2.9.2.
+% Encoding: Cp1252
+
+@MISC{DustinRyan,
+  author = {DustinRyan},
+  title = {Check IsNumeric() with Derived Column Transform in SSIS Package},
+  comment = {Letzter Abruf:},
+  owner = {teiken},
+  timestamp = {2014.01.21},
+  url = {http://www.bidn.com/blogs/dustinryan/ssis/915/check-isnumeric-with-derived-column-transform-in-ssis-package}
+}
+

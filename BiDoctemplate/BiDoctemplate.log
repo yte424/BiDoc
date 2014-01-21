@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.1.17)  17 JAN 2014 18:02
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.1.17)  21 JAN 2014 16:56
 entering extended mode
 **BiDoctemplate.tex
 (C:\Users\teiken\Documents\GitHub\BiDoc\BiDoctemplate\BiDoctemplate.tex
@@ -975,23 +975,16 @@ LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <14.4> not available
 )
 (C:\Users\teiken\Documents\GitHub\BiDoc\BiDoctemplate\doku/Architektur.tex
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <12> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 8.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 10.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 9.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 11.
 
-Underfull \hbox (badness 10000) in paragraph at lines 9--12
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 9--12
+Underfull \hbox (badness 10000) in paragraph at lines 11--16
 
  []
 
-)
-(C:\Users\teiken\Documents\GitHub\BiDoc\BiDoctemplate\doku/Architektur_und_Prog
-rammierrichtlinien.tex
-Underfull \hbox (badness 10000) in paragraph at lines 32--1
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--16
 
  []
 
@@ -999,46 +992,145 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1 \section
-            {Architektur- und Programmierrichtlinien} [1
+l.33 \subsection
+                {Kodierung} [1
 
 
 ]
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 7.
+Underfull \hbox (badness 10000) in paragraph at lines 35--36
 
-("C:\Program Files (x86)\New folder\tex\latex\psnfss\omsptm.fd"
-File: omsptm.fd 
+ []
+
+
+<doku/Bilder/DataProfilingTaskSampleVollstaendigkeitUndStrukturSISS.PNG, id=127
+, 456.5055pt x 340.8735pt>
+File: doku/Bilder/DataProfilingTaskSampleVollstaendigkeitUndStrukturSISS.PNG Gr
+aphic file (type png)
+
+<use doku/Bilder/DataProfilingTaskSampleVollstaendigkeitUndStrukturSISS.PNG>
+Package pdftex.def Info: doku/Bilder/DataProfilingTaskSampleVollstaendigkeitUnd
+StrukturSISS.PNG used on input line 42.
+(pdftex.def)             Requested size: 418.25555pt x 312.31229pt.
+
+[2pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) 
+has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+l.46 \paragraph
+               {Verwendete Logging Tabellen} <C:/Users/teiken/Documents/GitHub/
+BiDoc/BiDoctemplate/doku/Bilder/DataProfilingTaskSampleVollstaendigkeitUndStruk
+turSISS.PNG>] <doku/Bilder/LoggingTables.png, id=136, 378.213pt x 405.31425pt>
+File: doku/Bilder/LoggingTables.png Graphic file (type png)
+
+<use doku/Bilder/LoggingTables.png>
+Package pdftex.def Info: doku/Bilder/LoggingTables.png used on input line 49.
+(pdftex.def)             Requested size: 292.7776pt x 313.77515pt.
+ [3pdfTeX warning (ext4): destination with the same identifier (name{figure.2})
+ has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+l.70 \textbf{Fachliche Beschreibung: }
+                                      wenn ein ICD 40 oder 50 lautet dann ka...
+ <C:/Users/teiken/Documents/GitHub/BiDoc/BiDoctemplate/doku/Bilder/LoggingTable
+s.png>])
+(C:\Users\teiken\Documents\GitHub\BiDoc\BiDoctemplate\doku/Architektur_und_Prog
+rammierrichtlinien.tex
+Underfull \hbox (badness 10000) in paragraph at lines 70--1
+
+ []
+
+
+LaTeX Warning: Reference `DustinRyan' on page 4 undefined on input line 7.
+
+("C:\Program Files (x86)\New folder\tex\latex\listings\lstlang1.sty"
+File: lstlang1.sty 2013/08/26 1.5b listings language file
 )
-LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 7.
-)
+Underfull \hbox (badness 10000) in paragraph at lines 27--28
+
+ []
+
+[4] <doku/Bilder/KnowledgeGender.PNG, id=158, 640.19176pt x 366.77025pt>
+File: doku/Bilder/KnowledgeGender.PNG Graphic file (type png)
+
+<use doku/Bilder/KnowledgeGender.PNG>
+Package pdftex.def Info: doku/Bilder/KnowledgeGender.PNG used on input line 33.
+
+(pdftex.def)             Requested size: 334.60571pt x 191.6954pt.
+
+<doku/Bilder/SISS_DQS_Task.PNG, id=162, 520.344pt x 428.19975pt>
+File: doku/Bilder/SISS_DQS_Task.PNG Graphic file (type png)
+
+<use doku/Bilder/SISS_DQS_Task.PNG>
+Package pdftex.def Info: doku/Bilder/SISS_DQS_Task.PNG used on input line 42.
+(pdftex.def)             Requested size: 418.25555pt x 344.20677pt.
+
+<doku/Bilder/DQS_Result.PNG, id=163, 625.1355pt x 40.953pt>
+File: doku/Bilder/DQS_Result.PNG Graphic file (type png)
+
+<use doku/Bilder/DQS_Result.PNG>
+Package pdftex.def Info: doku/Bilder/DQS_Result.PNG used on input line 49.
+(pdftex.def)             Requested size: 418.25555pt x 27.40022pt.
+) [5pdfTeX warning (ext4): destination with the same identifier (name{figure.3}
+) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+l.222 \cleardoublepage
+                       <C:/Users/teiken/Documents/GitHub/BiDoc/BiDoctemplate/do
+ku/Bilder/KnowledgeGender.PNG>] [6pdfTeX warning (ext4): destination with the s
+ame identifier (name{figure.4}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+l.222 \cleardoublepage
+                      pdfTeX warning (ext4): destination with the same identifi
+er (name{figure.5}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+l.222 \cleardoublepage
+                       <C:/Users/teiken/Documents/GitHub/BiDoc/BiDoctemplate/do
+ku/Bilder/SISS_DQS_Task.PNG> <C:/Users/teiken/Documents/GitHub/BiDoc/BiDoctempl
+ate/doku/Bilder/DQS_Result.PNG>]
+(C:\Users\teiken\Documents\GitHub\BiDoc\BiDoctemplate\BiDoctemplate.bbl)
+(C:\Users\teiken\Documents\GitHub\BiDoc\BiDoctemplate\BiDoctemplate.ind
+[7
+
+
+
+
+])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 242.
- [2]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 242.
-
-(C:\Users\teiken\Documents\GitHub\BiDoc\BiDoctemplate\BiDoctemplate.aux)
+ (C:\Users\teiken\Documents\GitHub\BiDoc\BiDoctemplate\BiDoctemplate.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 242.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 242.
 Package rerunfilecheck Info: File `BiDoctemplate.out' has not changed.
-(rerunfilecheck)             Checksum: E2C0DE765D743651EBB7EAA30182A5A0;1010.
+(rerunfilecheck)             Checksum: 6D00FB9508DB51ACDCD29DEB33642576;1720.
+
+
+LaTeX Warning: There were undefined references.
+
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 242.
  ) 
 Here is how much of TeX's memory you used:
- 20534 strings out of 493921
- 377057 string characters out of 3144873
- 516659 words of memory out of 3000000
- 23403 multiletter control sequences out of 15000+200000
- 27371 words of font info for 42 fonts, out of 3000000 for 9000
+ 21192 strings out of 493921
+ 384617 string characters out of 3144873
+ 537911 words of memory out of 3000000
+ 23997 multiletter control sequences out of 15000+200000
+ 45763 words of font info for 76 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 65i,7n,71p,434b,342s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 65i,8n,71p,671b,1298s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/New folder/fonts/enc/dvips/fontname/8r.enc}<C:/Progra
-m Files (x86)/New folder/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program 
-Files (x86)/New folder/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Program Files (x
-86)/New folder/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files (x86)/New fol
-der/fonts/type1/urw/times/utmr8a.pfb>
-Output written on BiDoctemplate.pdf (3 pages, 60735 bytes).
+m Files (x86)/New folder/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Program Files 
+(x86)/New folder/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files (x86)/New f
+older/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files (x86)/New folder/fonts
+/type1/urw/times/utmri8a.pfb>
+Output written on BiDoctemplate.pdf (8 pages, 316524 bytes).
 PDF statistics:
- 113 PDF objects out of 1000 (max. 8388607)
- 20 named destinations out of 1000 (max. 500000)
- 149 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 217 PDF objects out of 1000 (max. 8388607)
+ 50 named destinations out of 1000 (max. 500000)
+ 254 words of extra memory for PDF output out of 10000 (max. 10000000)
 

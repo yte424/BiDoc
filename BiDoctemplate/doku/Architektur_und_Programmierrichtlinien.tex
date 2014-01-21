@@ -3,10 +3,50 @@ In diesem Abschnitt werden Richtlinien und Best Practices gesammelt.
 
 \subsection{Formatierungen}
 Es gibt zwei Alternativen hierfür:
-\begin{itemize}
-	\item \textbf{Mittels SSIS:} Die Konvertierungen werden mittels SISS Komponenten durchgeführt.
-	\item \textbf{Mittels SQL:} Die Daten werden als Text in eine DB integriert und dann danach mittels SQL Konvertierungen in das Zielformat überführt
-\end{itemize}
+
+	\paragraph{Mittels SSIS:} Die Konvertierungen werden mittels SISS Komponenten durchgeführt.Wie dies geht, hier \ref{DustinRyan} vorgestellt. Hier verwendet man abgeleitete Spalten für
+	
+	\begin{lstlisting}[language=SQL,label=listFormatSISS, caption=Formatierung mit SISS und Behandlung von leeren Werten]
+% reine Prüfung
+(DT_UI4)Alter == (DT_UI4)Alter ? 1 : 0
+% hier wird es automatisch auf den konvertireten Wert gelegt
+(DT_UI4)Alter == (DT_UI4)Alter ? (DT_UI4)Alter : 0
+\end{lstlisting}
+	\textbf{Mittels SQL:} Die Daten werden als Text in eine DB integriert und dann danach mittels SQL Konvertierungen in das Zielformat überführt. 
+
+
 
 
 \subsection{Extraktion von Daten} \label{BP_Extract}
+
+
+\subsection{Daten bereinigen mittels Data Profiling Task}
+Um den Task verwenden zu können, müssen die Daten in einer ADO.NET Datenquelle vorhanden sein. Es hilft auch nur um die Daten einschätzen zu können. Die Ergebnisse liegen dann in einer XML Datei und können betrachtet werden. Man sieht in den Ergebnisse eine Verteilung von Werten.
+
+\subsubsection{Daten bereinigen mittels DQS}
+Der Ansatz an sich ist ganz cool. Mann kann Domänen festlegen und Wertebereiche und Regeln zu den Werten festlegen. Der Client an sich ist relativ langsam und etwas fehleranfällig und absturzgefährdet. Ein kontinuierliches Arbeiten mit dem Client ist fast unmöglich.\\
+ 
+In der Abbildung \ref{fig:KnowledgeGender} werden die möglichen Ausprägungen beschrieben. Es können Synonyme verwendet werden, diese werden dann auf den Repräsentanten abgebildet. Auch können Regeln festgelegt werden. Wie im Beispiel Alter zu sehen ist. Hier wird der Wertebereich entsprechen eingeschränkt.
+
+\begin{figure}[htbp]
+	\centering
+		\includegraphics[width=0.80\textwidth]{doku/Bilder/KnowledgeGender.PNG}
+	\caption{Domän Geschlecht mit Werten}
+	\label{fig:KnowledgeGender}
+\end{figure}
+
+Die Bereinigung der Daten kann dann im SISS vorgenommen werden, wie es in Abbildung \ref{fig:SISS_DQS_Task} gezeigt ist. Der Task an sich ist recht schön. Man kann die Domäne zu einer Spalte angeben  und alle Regelen, die in der Kowledgebase verfügbar sind werden angewendet. Als Ergebnis erhält man dann korrigierte oder aussortierte Daten, wie in Abbildung \ref{fig:DQS_Result} zu sehen ist.\footnote{In meinem Beispiel hat die Abbildung von Geschlecht männlich nicht funktioniert und es wurde die ID der Spalte verwendet. Ich konnte nicht nachvollziehen warum das so ist.}
+
+\begin{figure}
+	\centering
+		\includegraphics[width=1.00\textwidth]{doku/Bilder/SISS_DQS_Task.PNG}
+	\caption{DQS Task in SISS}
+	\label{fig:SISS_DQS_Task}
+\end{figure}
+
+\begin{figure}
+	\centering
+		\includegraphics[width=1.00\textwidth]{doku/Bilder/DQS_Result.PNG}
+	\caption{DQS Ergebins, invalide Daten}
+	\label{fig:DQS_Result}
+\end{figure}
