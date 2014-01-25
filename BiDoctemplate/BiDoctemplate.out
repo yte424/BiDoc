@@ -1,27 +1,26 @@
-\BOOKMARK [1][-]{section.1}{Einleitung}{}% 1
-\BOOKMARK [1][-]{section.2}{Datenquellen}{}% 2
-\BOOKMARK [2][-]{subsection.2.1}{DataProfilingTaskSample}{section.2}% 3
-\BOOKMARK [1][-]{section.3}{Datenintegration}{}% 4
-\BOOKMARK [2][-]{subsection.3.1}{DataProfilingTaskSample}{section.3}% 5
-\BOOKMARK [2][-]{subsection.3.2}{Extraktion}{section.3}% 6
-\BOOKMARK [2][-]{subsection.3.3}{Kodierung}{section.3}% 7
-\BOOKMARK [2][-]{subsection.3.4}{Struktur}{section.3}% 8
-\BOOKMARK [2][-]{subsection.3.5}{Umsetzung Fachlichkeit}{section.3}% 9
-\BOOKMARK [1][-]{section.4}{Datenintegration: DataProfilingTaskSample}{}% 10
-\BOOKMARK [2][-]{subsection.4.1}{Extraktion}{section.4}% 11
-\BOOKMARK [2][-]{subsection.4.2}{Kodierung}{section.4}% 12
-\BOOKMARK [2][-]{subsection.4.3}{Vollst\344ndigkeit und Struktur}{section.4}% 13
-\BOOKMARK [2][-]{subsection.4.4}{Umsetzung Fachlichkeit}{section.4}% 14
-\BOOKMARK [1][-]{section.5}{Zentrale Datenhaltung}{}% 15
-\BOOKMARK [1][-]{section.6}{Aggregation}{}% 16
-\BOOKMARK [1][-]{section.7}{Reporting}{}% 17
-\BOOKMARK [1][-]{section.8}{Fachliche Reglen}{}% 18
-\BOOKMARK [2][-]{subsection.8.1}{Geschlecht zu ICD}{section.8}% 19
-\BOOKMARK [2][-]{subsection.8.2}{Wertebereich Alter:}{section.8}% 20
-\BOOKMARK [1][-]{section.9}{Architektur- und Programmierrichtlinien}{}% 21
-\BOOKMARK [2][-]{subsection.9.1}{Formatierungen}{section.9}% 22
-\BOOKMARK [2][-]{subsection.9.2}{Extraktion von Daten}{section.9}% 23
-\BOOKMARK [2][-]{subsection.9.3}{Daten bereinigen mittels Data Profiling Task}{section.9}% 24
-\BOOKMARK [3][-]{subsubsection.9.3.1}{Daten bereinigen mittels DQS}{subsection.9.3}% 25
-\BOOKMARK [0][-]{figure.5}{Literatur}{}% 26
-\BOOKMARK [0][-]{figure.5}{Index}{}% 27
+\BOOKMARK [1][-]{section.0.1}{Einleitung}{}% 1
+\BOOKMARK [0][-]{chapter.1}{Allgemeine Architektur}{}% 2
+\BOOKMARK [1][-]{section.1.1}{Datenanlieferung}{chapter.1}% 3
+\BOOKMARK [1][-]{section.1.2}{Abgeleitete Architektur}{chapter.1}% 4
+\BOOKMARK [1][-]{section.1.3}{Logging und Bereinigung}{chapter.1}% 5
+\BOOKMARK [1][-]{section.1.4}{Zentrale Datenhaltung}{chapter.1}% 6
+\BOOKMARK [1][-]{section.1.5}{Berichte}{chapter.1}% 7
+\BOOKMARK [0][-]{chapter.2}{Konkrete Umsetzung des Projekts}{}% 8
+\BOOKMARK [1][-]{section.2.1}{DataProfilingTaskSample}{chapter.2}% 9
+\BOOKMARK [2][-]{subsection.2.1.1}{Datenquellenbeschreibung}{section.2.1}% 10
+\BOOKMARK [2][-]{subsection.2.1.2}{Extraktion}{section.2.1}% 11
+\BOOKMARK [2][-]{subsection.2.1.3}{Kodierung}{section.2.1}% 12
+\BOOKMARK [2][-]{subsection.2.1.4}{Vollst\344ndigkeit und Struktur}{section.2.1}% 13
+\BOOKMARK [2][-]{subsection.2.1.5}{Umsetzung Fachlichkeit}{section.2.1}% 14
+\BOOKMARK [0][-]{chapter.3}{Fachliche Regeln}{}% 15
+\BOOKMARK [1][-]{section.3.1}{Geschlecht zu ICD}{chapter.3}% 16
+\BOOKMARK [1][-]{section.3.2}{Wertebereich Alter:}{chapter.3}% 17
+\BOOKMARK [0][-]{chapter.4}{Architektur- und Programmierrichtlinien}{}% 18
+\BOOKMARK [1][-]{section.4.1}{Technichnical IDs}{chapter.4}% 19
+\BOOKMARK [1][-]{section.4.2}{Stagging in Tabellen}{chapter.4}% 20
+\BOOKMARK [1][-]{section.4.3}{Formatierungen}{chapter.4}% 21
+\BOOKMARK [2][-]{subsection.4.3.1}{Mittels SSIS:}{section.4.3}% 22
+\BOOKMARK [2][-]{subsection.4.3.2}{Extraktion von Daten}{section.4.3}% 23
+\BOOKMARK [2][-]{subsection.4.3.3}{Daten bereinigen mittels Data Profiling Task}{section.4.3}% 24
+\BOOKMARK [0][-]{figure.4.3}{Literatur}{}% 25
+\BOOKMARK [0][-]{chapter*.5}{Index}{}% 26

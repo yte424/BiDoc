@@ -1,10 +1,31 @@
-\section{Architektur- und Programmierrichtlinien}
+\chapter{Architektur- und Programmierrichtlinien}
 In diesem Abschnitt werden Richtlinien und Best Practices gesammelt.
 
-\subsection{Formatierungen}
+\section{Technichnical IDs}
+Für die Vergabe von technischen Schlüsseln gibt es zwei Alternativen als numeric oder als Guid
+
+Eigenschaften von GUIDs
+\begin{itemize}
+	\item Sind global eindeutig im System, ein Item ist immer eindeutig identifizierbar
+	\item neue Guids im SSIS kann man mittels abgeleiteter Spalte hinzufügen zum Datenfluss
+	\item Sind in der Geschwindigkeit bei der Verarbeitung gefühlt langsamer
+	\item Bei der DAK und im Data Vault Kontext werden Guids für technische IDs verwendet. 
+\end{itemize}
+
+Eigenschaften von numerischen technischen Schlüsseln
+\begin{itemize}
+	\item Können automatisch erzeugt werden beim Einfügen in der Tabelle
+	\item Sind nur eindeutig pro Tabelle und nicht im System
+	\item Sind in der Verarbeitung etwas angenehmer
+\end{itemize}
+
+
+\section{Stagging in Tabellen}
+
+\section{Formatierungen}
 Es gibt zwei Alternativen hierfür:
 
-	\paragraph{Mittels SSIS:} Die Konvertierungen werden mittels SISS Komponenten durchgeführt.Wie dies geht, hier \ref{DustinRyan} vorgestellt. Hier verwendet man abgeleitete Spalten für
+	\subsection{Mittels SSIS:} Die Konvertierungen werden mittels SISS Komponenten durchgeführt.Wie dies geht, hier \ref{DustinRyan} vorgestellt. Hier verwendet man abgeleitete Spalten für
 	
 	\begin{lstlisting}[language=SQL,label=listFormatSISS, caption=Formatierung mit SISS und Behandlung von leeren Werten]
 % reine Prüfung

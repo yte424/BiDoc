@@ -1,4 +1,4 @@
-\documentclass[11pt,a4paper]{scrartcl} % Basisdokumentenklasse
+\documentclass[11pt,a4paper]{book} % Basisdokumentenklasse
 \usepackage[ngerman]{babel}        % Deutsche Standardbezeichner und Trennung
 \usepackage[latin1]{inputenc}      % Für Umlaute
 \usepackage[T1]{fontenc}           % und ß
@@ -26,9 +26,9 @@
 \usepackage{url}
 %für schöne Formelumgebung
 \usepackage{amssymb,amsmath}
-
-
+\usepackage{todonotes}
 \usepackage{boxedminipage}
+\usepackage{wasysym}
 %Um bei Code Unterschriften zu haben verwendeung von eigenem Listing Stilen (Kai)
 %\input{content/listings}
 %für mehrsoaltigen Text
@@ -54,63 +54,14 @@
 \widowpenalty = 10000
 \displaywidowpenalty = 10000
 
-
-%%weitere Befhele innerhalb der IDL
-\newcommand{\overview}[1]{\textbf{Overview: \\ }{#1}\\}
-\newcommand{\arguments}[1]{\textbf{Supplied Arguments: \\ }{#1\\}}
-\newcommand{\preCon}[1]{\textbf{Pre-Conditions:  \\}{#1\\}}
-\newcommand{\postCon}[1]{\textbf{Results: \\ }{#1\\}}
-\newcommand{\error}[1]{\textbf{Errors: \\}{#1\\}}
-%eigene Comands für Begriffe:
-\newcommand{\automais}{AutoMAIS}
-%\newcommand{\staticDataSource}{static data source }
-%\newcommand{\staticDataSources}{static data source }
-%\newcommand{\dynamicDataSource}{dynamic data source }
-%\newcommand{\dynamicDataSources}{dynamic data sources }
-
-% data Connections für datenquellen
-% data structuren für datenquellen
-% inforamtion für datenquellen 
-\newcommand{\information}{information}
-\newcommand{\Information}{Information}
-% measure
-\newcommand{\measure}{measure }
-\newcommand{\measures}{measures }
-\newcommand{\Measure}{measure }
-\newcommand{\Measures}{measures } 
-% base measure 
-\newcommand{\basemeasure}{base measure }
-\newcommand{\basemeasures}{base measures }
-\newcommand{\Basemeasure}{base measure }
-\newcommand{\Basemeasures}{base measures }
-
-
- \newcommand\versicherung[1]{\chapter*{Versicherung}
-\thispagestyle{empty}
-Hiermit versichere ich, dass ich diese Arbeit selbst\"{a}ndig verfasst und keine anderen als die angegebenen Quellen und Hilfsmittel benutzt habe. Au{\ss}erdem versichere ich, dass ich die allgemeinen Prinzipien wissenschaftlicher Arbeit und Ver\"{o}ffentlichung, wie sie in den Leitlinien guter wissenschaftlicher Praxis der Carl von Ossietzky Universit\"{a}t Oldenburg festgelegt sind, befolgt habe.
-
-\vspace{1.5cm}
-
-#1, den 27. Februar 2012
-
-\vspace*{-0.5cm}\hspace*{5.5cm}\hrulefill\\
-\hspace*{6.5cm}\hfill Yvette Teiken \hfill\mbox{}
-}
-
-
-%\newcommand{\RZO}{R$_2$O}
-% software engineering
-\newcommand{\SE}{software engineering }
-\newcommand{\se}{software engineering }
-
-%\newcommand{\awNot}[1]{%
-%\begin{boxedminipage}[t]{14cm}
-%#1
-%\end{boxedminipage}
-%   
-%}
-
-
+%Eigene Befehle für eine bessere Struktur
+\newcommand{\DqBeschreibung}[3]{\textbf{Name der Datenquelle: }#1 \textbf{Format: }#3 \\ \textbf{Kurszbeschreibung:} #2 \\  \\}
+\newcommand{\Quellattribut}[2]{ \textbf{Attributname}: #1 \textbf{Beschreibung}: #2 \\ }
+\newcommand{\SsisTask}[1]{\emph{#1} \index{SSIS Task!#1}}
+\newcommand{\SsisPack}[1]{\emph{#1} \index{SSIS Package!#1}}
+%Für checkedBox Items
+\newcommand{\itemtodo}[0]{\item[\Square] }
+\newcommand{\itemdone}[0]{\item[\CheckedBox] }
 
 
 %Komondo um den Index Eintrag fett zu machen. Benutzt man bei der Definition des Begriffs kommt von RST
@@ -141,22 +92,19 @@ Hiermit versichere ich, dass ich diese Arbeit selbst\"{a}ndig verfasst und keine
 %\setcounter{page}{5}    % Bei römisch V anfangen	
 
 
-% Zusammenfassung und Abstract
-
-%\input{content/Dank.tex}
-%\input{content/abstract.tex}
-
-
 
 % Inhaltsverzeichnis
-
-%\tableofcontents
-
+\tableofcontents
 \cleardoublepage        % Danach auf ungerader Seite weitermachen
 \pagenumbering{arabic}  % Arabische Seitenzahlen starten neu
 
 \input{doku/Einleitung.tex}
 \input{doku/Architektur.tex}
+%ab hier nun konkrete Beschreibung des Projekts
+\chapter{Konkrete Umsetzung des Projekts}
+Hier wird an Hand der konkreten Datenquellen bzw. Berichte die einzelnen Schichten beschrieben.
+\input{doku/DataProfilingTaskSample.tex}
+\input{doku/fachlicheRegeln.tex}
 \input{doku/Architektur_und_Programmierrichtlinien.tex}
 %\include{content/Introduction}
 % Der eigentliche Inhalt
@@ -203,7 +151,6 @@ Hiermit versichere ich, dass ich diese Arbeit selbst\"{a}ndig verfasst und keine
 
 % Verzeichnisse am Ende, erst das Glossar
 %\include{content/glossar}
-
 
 
 

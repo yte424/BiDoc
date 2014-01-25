@@ -32,11 +32,11 @@ NormalPos.top=32
 NormalPos.right=1562
 NormalPos.bottom=499
 Class=LaTeXView
-Document=doku\Architektur_und_Programmierrichtlinien.tex
+Document=doku\Architektur.tex
 
 [Frame1_View0,0]
 TopLine=0
-Cursor=840
+Cursor=131
 
 [Frame2]
 Flags=0
@@ -50,11 +50,11 @@ NormalPos.top=32
 NormalPos.right=1562
 NormalPos.bottom=499
 Class=LaTeXView
-Document=doku\Architektur.tex
+Document=BiDoctemplate.tex
 
 [Frame2_View0,0]
-TopLine=26
-Cursor=1415
+TopLine=0
+Cursor=255
 
 [Frame3]
 Flags=0
@@ -68,13 +68,31 @@ NormalPos.top=32
 NormalPos.right=1562
 NormalPos.bottom=499
 Class=LaTeXView
-Document=BiDoctemplate.tex
+Document=doku\DataProfilingTaskSample.tex
 
 [Frame3_View0,0]
-TopLine=35
-Cursor=6548
+TopLine=24
+Cursor=1588
+
+[Frame4]
+Flags=0
+ShowCmd=1
+MinPos.x=-1
+MinPos.y=-1
+MaxPos.x=-1
+MaxPos.y=-1
+NormalPos.left=4
+NormalPos.top=32
+NormalPos.right=1562
+NormalPos.bottom=499
+Class=LaTeXView
+Document=doku\Architektur_und_Programmierrichtlinien.tex
+
+[Frame4_View0,0]
+TopLine=9
+Cursor=870
 
 [SessionInfo]
-FrameCount=4
-ActiveFrame=2
+FrameCount=5
+ActiveFrame=3
 

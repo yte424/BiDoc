@@ -1,10 +1,30 @@
 \select@language {ngerman}
-\contentsline {section}{\numberline {1}Einleitung}{1}{section.1}
-\contentsline {section}{\numberline {2}Datenquellen}{1}{section.2}
-\contentsline {subsection}{\numberline {2.1}Incident Report}{1}{subsection.2.1}
-\contentsline {section}{\numberline {3}Datenintegration}{1}{section.3}
-\contentsline {section}{\numberline {4}Zentrale Datenhaltung}{1}{section.4}
-\contentsline {section}{\numberline {5}Aggregation}{1}{section.5}
-\contentsline {section}{\numberline {6}Reporting}{1}{section.6}
-\contentsline {section}{\numberline {7}Architektur- und Programmierrichtlinien}{1}{section.7}
-\contentsline {subsection}{\numberline {7.1}Formatierungen}{1}{subsection.7.1}
+\contentsline {section}{\numberline {0.1}Einleitung}{1}{section.0.1}
+\contentsline {chapter}{\numberline {1}Allgemeine Architektur}{3}{chapter.1}
+\contentsline {section}{\numberline {1.1}Datenanlieferung}{3}{section.1.1}
+\contentsline {section}{\numberline {1.2}Abgeleitete Architektur}{3}{section.1.2}
+\contentsline {section}{\numberline {1.3}Logging und Bereinigung}{3}{section.1.3}
+\contentsline {section}{\numberline {1.4}Zentrale Datenhaltung}{4}{section.1.4}
+\contentsline {section}{\numberline {1.5}Berichte}{4}{section.1.5}
+\contentsline {chapter}{\numberline {2}Konkrete Umsetzung des Projekts}{5}{chapter.2}
+\contentsline {section}{\numberline {2.1}DataProfilingTaskSample}{5}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}Datenquellenbeschreibung}{5}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}Extraktion}{5}{subsection.2.1.2}
+\contentsline {subsection}{\numberline {2.1.3}Kodierung}{5}{subsection.2.1.3}
+\contentsline {subsection}{\numberline {2.1.4}Vollst"andigkeit und Struktur}{5}{subsection.2.1.4}
+\contentsline {paragraph}{SISS Paket}{6}{figure.2.1}
+\contentsline {paragraph}{Verwendete Logging Tabellen}{6}{figure.2.2}
+\contentsline {subsection}{\numberline {2.1.5}Umsetzung Fachlichkeit}{6}{subsection.2.1.5}
+\contentsline {chapter}{\numberline {3}Fachliche Regeln}{9}{chapter.3}
+\contentsline {section}{\numberline {3.1}Geschlecht zu ICD}{9}{section.3.1}
+\contentsline {section}{\numberline {3.2}Wertebereich Alter:}{9}{section.3.2}
+\contentsline {chapter}{\numberline {4}Architektur- und Programmierrichtlinien}{11}{chapter.4}
+\contentsline {section}{\numberline {4.1}Technichnical IDs}{11}{section.4.1}
+\contentsline {section}{\numberline {4.2}Stagging in Tabellen}{11}{section.4.2}
+\contentsline {section}{\numberline {4.3}Formatierungen}{11}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Mittels SSIS:}{12}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}Extraktion von Daten}{12}{subsection.4.3.2}
+\contentsline {subsection}{\numberline {4.3.3}Daten bereinigen mittels Data Profiling Task}{12}{subsection.4.3.3}
+\contentsline {subsubsection}{Daten bereinigen mittels DQS}{12}{section*.4}
+\contentsline {chapter}{Literatur}{15}{figure.4.3}
+\contentsline {chapter}{Index}{15}{chapter*.5}
